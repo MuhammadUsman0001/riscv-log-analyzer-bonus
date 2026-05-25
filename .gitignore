@@ -1,0 +1,16 @@
+# Output Directory
+output/
+
+# Logs
+*.log
+
+# Temporary Files
+*.tmp
+
+# Editor Files
+.vscode/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,33 @@
+[2026-05-03 14:22:01] TEST START: rv32i-load-store-basic
+[2026-05-03 14:22:02] TEST PASS: rv32i-load-store-basic (0.95s)
+
+[2026-05-03 14:22:02] TEST START: rv32i-arith-chain
+[2026-05-03 14:22:03] TEST PASS: rv32i-arith-chain (0.77s)
+
+[2026-05-03 14:22:03] TEST START: rv32i-branch-equal
+[2026-05-03 14:22:05] TEST FAIL: rv32i-branch-equal (1.40s)
+[2026-05-03 14:22:05] ERROR: Expected PC=0x00000030, got 0x0000002C
+
+[2026-05-03 14:22:05] TEST START: rv32i-branch-not-equal
+[2026-05-03 14:22:06] TEST PASS: rv32i-branch-not-equal (0.68s)
+
+[2026-05-03 14:22:06] TEST START: rv32i-memory-alignment
+[2026-05-03 14:22:07] TEST FAIL: rv32i-memory-alignment (1.12s)
+[2026-05-03 14:22:07] ERROR: Misaligned access at address 0x00001003
+
+[2026-05-03 14:22:07] TEST START: rv32i-sign-extension
+[2026-05-03 14:22:08] TEST PASS: rv32i-sign-extension (0.59s)
+
+[2026-05-03 14:22:08] TEST START: rv32i-jump
+[2026-05-03 14:22:09] TEST PASS: rv32i-jump (0.64s)
+
+[2026-05-03 14:22:09] TEST START: rv32i-jalr
+[2026-05-03 14:22:10] TEST PASS: rv32i-jalr (0.71s)
+
+[2026-05-03 14:22:10] TEST START: rv32i-hazard-check
+[2026-05-03 14:22:11] TEST PASS: rv32i-hazard-check (0.83s)
+
+[2026-05-03 14:22:11] TEST START: rv32i-register-file
+[2026-05-03 14:22:12] TEST PASS: rv32i-register-file (0.52s)
+
+[2026-05-03 14:22:12] SUMMARY: 10 tests, 8 passed, 2 failed, 0 skipped

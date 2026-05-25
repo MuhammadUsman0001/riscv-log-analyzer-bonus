@@ -33,7 +33,7 @@ riscv-log-analyzer/
 
 ```bash
 # Clone the repository
-git clone git@github.com:yourusername/riscv-log-analyzer.git
+git clone git@github.com:MuhammadUsman0001/riscv-log-analyzer-bonus.git
 cd riscv-log-analyzer
 
 # Verify dependencies
